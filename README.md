@@ -39,3 +39,7 @@ Elapsed time: 15.2205140591 sec.
 --- SIMULATION Finished. ---
 
 ```
+
+I learnt from these two links mainly to get the core ideas for writing my code:
+- https://apmonitor.com/pdc/index.php/Main/ModelSimulation
+- https://towardsdatascience.com/on-simulating-non-linear-dynamic-systems-with-python-or-how-to-gain-insights-without-using-ml-353eebf8dcc3
