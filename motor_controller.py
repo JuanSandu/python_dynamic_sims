@@ -115,7 +115,7 @@ if save_data:
     sim_df.to_csv('sim_data/ex4_motor_control.csv')
 
 # Plot results
-# States are: tau, taup, tau_ref, taup_ref, dc_volts, q, qp, qpp
+# States are: tau, taup, tau_ref, taup_ref, dc_volts
 plt.rcParams['axes.grid'] = True
 plt.figure()
 plt.subplot(3,1,1)
