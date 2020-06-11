@@ -1,8 +1,5 @@
 """
-    This code has been developed by Juan Sandubete Lopez and all the rights
-    belongs to him.
-    Distribution or commercial use of the code is not allowed without previous
-    agreement with the author.
+    This code has been developed by Juan Sandubete Lopez.
 """
 
 import numpy as np
