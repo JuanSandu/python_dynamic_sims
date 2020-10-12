@@ -40,6 +40,9 @@ Elapsed time: 15.2205140591 sec.
 
 ```
 
+With the second part of the tutorial, we make simulations using the function solve_ivp() of Scipy. In addition, we run C/C++ controllers in order to be able to test the control laws exactly as they will be implemented in the microcontroller. To know all the details, checkout the tutorial:
+https://medium.com/robotics-devs/python-dynamics-simulations-part-2-testing-c-c-controllers-a182a704ca12
+
 I learnt from these two links mainly to get the core ideas for writing my code:
 - https://apmonitor.com/pdc/index.php/Main/ModelSimulation
 - https://towardsdatascience.com/on-simulating-non-linear-dynamic-systems-with-python-or-how-to-gain-insights-without-using-ml-353eebf8dcc3
