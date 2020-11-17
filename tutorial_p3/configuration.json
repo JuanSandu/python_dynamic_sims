@@ -1,0 +1,28 @@
+{
+  "dc_motor_model1": {
+    "a": 1,
+    "k": 1,
+    "store_data": false
+  },
+  "torque_sensor1": {
+    "mean_white_noise": 0.0,
+    "dev_white_noise": 0.05,
+    "sensor_bits": 8,
+    "torque_range": 10,
+    "store_data": true
+  },
+  "controller1":{
+    "saturation_volt": 7.0,
+    "store_data": true
+  },
+  "simulation_1": {
+    "perfect_sensor": false,
+    "initial_states": [0.0, 0.0, 0.0],
+    "sim_time": 10.0,
+    "continuous_samples": 3,
+    "sampling_freq": 50,
+    "save_data": false,
+    "save_figure": true,
+    "title": "motor_control_part3"
+  }
+}
