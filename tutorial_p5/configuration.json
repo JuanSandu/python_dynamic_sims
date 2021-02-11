@@ -1,0 +1,38 @@
+{
+  "dc_motor_model1": {
+    "a": 1,
+    "k": 1,
+    "store_data": false
+  },
+  "robot_arm1": {
+    "mass": 5.1,
+    "length": 1.4,
+    "theta_init": 0.0,
+    "drag_coef": 2.5,
+    "store_data": true
+  },
+  "robot_arm1_tf": {
+    "def_poles_zeros": true,
+    "tf": {
+      "k":0.00265,
+      "zeros": [ [1] ],
+      "poles": [ [1, 1.8, 0.7] ]
+    },
+    "tf_2nd_order":{
+      "gain": 0.028,
+      "omega": 1.7304,
+      "zeta": 0.62257
+    }
+  },
+  "simulation_1": {
+    "perfect_sensor": true,
+    "initial_states": [0.0, 0.0, 0.0, 0.0, 0.0],
+    "sim_time": 25.0,
+    "continuous_samples": 3,
+    "sampling_freq": 50,
+    "save_data": false,
+    "save_figure": true,
+    "title": "pendulum_simulations"
+  },
+  "g": 9.81
+}
