@@ -41,19 +41,19 @@ Elapsed time: 15.2205140591 sec.
 ```
 
 The content of this tutorial is the following:
-- 1. Use of odeint() for simulations with Matlab-like scripts.
+1. Use of odeint() for simulations with Matlab-like scripts.
 https://medium.com/robotics-devs/python-dynamics-simulations-part-1-f89648a35561
 
-- 2. Simulations using the function solve_ivp() of Scipy. In addition, we run C/C++ controllers in order to be able to test the control laws exactly as they will be implemented in the microcontroller. To know all the details, checkout the tutorial:
+2. Simulations using the function solve_ivp() of Scipy. In addition, we run C/C++ controllers in order to be able to test the control laws exactly as they will be implemented in the microcontroller. To know all the details, checkout the tutorial:
 https://medium.com/robotics-devs/python-dynamics-simulations-part-2-testing-c-c-controllers-a182a704ca12
 
-- 3. The creation of a object oriented simulator, more versatile and reusable:
+3. The creation of a object oriented simulator, more versatile and reusable:
 https://medium.com/robotics-devs/python-dynamic-simulations-part-3-object-oriented-simulator-56b2f5190876
 
-- 4. Use of sockets with Python and C/C++ as a way to interconnect the simulator with other applications:
+4. Use of sockets with Python and C/C++ as a way to interconnect the simulator with other applications:
 https://medium.com/robotics-devs/python-dynamics-simulations-part-4-sockets-with-c-and-python-2afb5c62f4b
 
-- 5. Transfer Functions with Python. An introduction including the simulation of a nonlineal model for a motorized pendulum.
+5. Transfer Functions with Python. An introduction including the simulation of a nonlineal model for a motorized pendulum and a linearization of it.
 https://medium.com/robotics-devs/transfer-functions-with-scipy-i-7709f2f1e232
 
 
